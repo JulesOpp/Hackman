@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847904591AE133240044CB73 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847904581AE133240044CB73 /* Cocoa.framework */; };
+		847904631AE133240044CB73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 847904611AE133240044CB73 /* InfoPlist.strings */; };
+		847904651AE133240044CB73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847904641AE133240044CB73 /* main.m */; };
+		847904691AE133240044CB73 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 847904671AE133240044CB73 /* Credits.rtf */; };
+		8479046C1AE133240044CB73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479046B1AE133240044CB73 /* AppDelegate.m */; };
+		8479046F1AE133240044CB73 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8479046D1AE133240044CB73 /* MainMenu.xib */; };
+		847904771AE1333B0044CB73 /* AppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847904761AE1333B0044CB73 /* AppView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		847904541AE133240044CB73 /* PacMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847904581AE133240044CB73 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8479045B1AE133240044CB73 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8479045C1AE133240044CB73 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8479045D1AE133240044CB73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		847904601AE133240044CB73 /* PacMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PacMan-Info.plist"; sourceTree = "<group>"; };
+		847904621AE133240044CB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		847904641AE133240044CB73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847904661AE133240044CB73 /* PacMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PacMan-Prefix.pch"; sourceTree = "<group>"; };
+		847904681AE133240044CB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8479046A1AE133240044CB73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8479046B1AE133240044CB73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8479046E1AE133240044CB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		847904751AE1333B0044CB73 /* AppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppView.h; sourceTree = "<group>"; };
+		847904761AE1333B0044CB73 /* AppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847904511AE133240044CB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847904591AE133240044CB73 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847904491AE133240044CB73 = {
+			isa = PBXGroup;
+			children = (
+				8479045E1AE133240044CB73 /* PacMan */,
+				847904571AE133240044CB73 /* Frameworks */,
+				847904551AE133240044CB73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847904551AE133240044CB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847904541AE133240044CB73 /* PacMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847904571AE133240044CB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847904581AE133240044CB73 /* Cocoa.framework */,
+				8479045A1AE133240044CB73 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8479045A1AE133240044CB73 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8479045B1AE133240044CB73 /* AppKit.framework */,
+				8479045C1AE133240044CB73 /* CoreData.framework */,
+				8479045D1AE133240044CB73 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8479045E1AE133240044CB73 /* PacMan */ = {
+			isa = PBXGroup;
+			children = (
+				8479046A1AE133240044CB73 /* AppDelegate.h */,
+				8479046B1AE133240044CB73 /* AppDelegate.m */,
+				8479046D1AE133240044CB73 /* MainMenu.xib */,
+				8479045F1AE133240044CB73 /* Supporting Files */,
+				847904751AE1333B0044CB73 /* AppView.h */,
+				847904761AE1333B0044CB73 /* AppView.m */,
+			);
+			path = PacMan;
+			sourceTree = "<group>";
+		};
+		8479045F1AE133240044CB73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847904601AE133240044CB73 /* PacMan-Info.plist */,
+				847904611AE133240044CB73 /* InfoPlist.strings */,
+				847904641AE133240044CB73 /* main.m */,
+				847904661AE133240044CB73 /* PacMan-Prefix.pch */,
+				847904671AE133240044CB73 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847904531AE133240044CB73 /* PacMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847904721AE133240044CB73 /* Build configuration list for PBXNativeTarget "PacMan" */;
+			buildPhases = (
+				847904501AE133240044CB73 /* Sources */,
+				847904511AE133240044CB73 /* Frameworks */,
+				847904521AE133240044CB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacMan;
+			productName = PacMan;
+			productReference = 847904541AE133240044CB73 /* PacMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8479044B1AE133240044CB73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8479044E1AE133240044CB73 /* Build configuration list for PBXProject "PacMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 847904491AE133240044CB73;
+			productRefGroup = 847904551AE133240044CB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847904531AE133240044CB73 /* PacMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847904521AE133240044CB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847904631AE133240044CB73 /* InfoPlist.strings in Resources */,
+				847904691AE133240044CB73 /* Credits.rtf in Resources */,
+				8479046F1AE133240044CB73 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847904501AE133240044CB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847904651AE133240044CB73 /* main.m in Sources */,
+				8479046C1AE133240044CB73 /* AppDelegate.m in Sources */,
+				847904771AE1333B0044CB73 /* AppView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		847904611AE133240044CB73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847904621AE133240044CB73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		847904671AE133240044CB73 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847904681AE133240044CB73 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8479046D1AE133240044CB73 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8479046E1AE133240044CB73 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847904701AE133240044CB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		847904711AE133240044CB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		847904731AE133240044CB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacMan/PacMan-Prefix.pch";
+				INFOPLIST_FILE = "PacMan/PacMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		847904741AE133240044CB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacMan/PacMan-Prefix.pch";
+				INFOPLIST_FILE = "PacMan/PacMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8479044E1AE133240044CB73 /* Build configuration list for PBXProject "PacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847904701AE133240044CB73 /* Debug */,
+				847904711AE133240044CB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847904721AE133240044CB73 /* Build configuration list for PBXNativeTarget "PacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847904731AE133240044CB73 /* Debug */,
+				847904741AE133240044CB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8479044B1AE133240044CB73 /* Project object */;
+}
